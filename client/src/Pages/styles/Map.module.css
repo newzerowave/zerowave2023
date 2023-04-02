@@ -12,12 +12,6 @@
   cursor: pointer;
 }
 
-#tempNav {
-  width: 100vw;
-  height: 150px;
-  background-color: green;
-}
-
 .map_wrap {
   position: relative;
   margin-top: 50px;

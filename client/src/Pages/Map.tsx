@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 
 import MapModal, { MapFavModal } from '../Components/MapModal';
 import MapList from '../Components/MapList';
+import Nav from '../Components/Nav';
 
 import styles from './styles/Map.module.css';
 import { useDispatch, useSelector } from 'react-redux';
@@ -78,7 +79,7 @@ const Map = () => {
 
   return (
     <div id={styles.mapPage}>
-      <div id={styles.tempNav}></div>
+      <Nav />
       <>{showModal ? <MapModal setShowModal={setShowModal} /> : ''}</>
       <>
         {showFavModal ? <MapFavModal setShowFavModal={setShowFavModal} /> : ''}

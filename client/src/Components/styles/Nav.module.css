@@ -1,0 +1,9 @@
+.navContainer {
+  width: 100vw;
+  height: 150px;
+}
+
+.navContainer a {
+  text-decoration: none;
+  color: black;
+}
